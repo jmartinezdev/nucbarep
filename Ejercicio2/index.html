@@ -7,25 +7,125 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
     <title>Ejercicio 2</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="covatex.png" alt="logo-covatex">
+            <img src="covatex-1-removebg-preview.png" alt="logo-covatex">
         </div>
         <nav class="nav">               
              <ul class="navbar-list">
-                 <li><a href="#"> INICIO  </a></li>
-                 <li><a href="#"> SERVICIOS </a></li>
-                  <li><a href="#"> CLIENTES </a></li>
-                  <li><a href="#"> CONTACTO </a></li>
+                 <li><a href="#"><i class="fa-solid fa-house"></i> INICIO  </a></li>
+                 <li><a href="#"><i class="fa-regular fa-handshake"></i> SERVICIOS </a></li>
+                  <li><a href="#"><i class="fa-solid fa-users"></i> CLIENTES </a></li>
+                  <li><a href="#"><i class="fa-solid fa-phone"></i> CONTACTO </a></li>
              </ul>
-         
          </nav>
-        
     </header>
-    <hr>
+
+    <main class="main">
+
+        
+        <section class="hero">
+            <div class="hero-left">
+                <div class="hero-title">
+                    <h2>Servicios Textiles Integrales</h2>
+                </div>
+                <div class="hero-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi qui similique labore illum officia nam esse inventore velit minus non, quae eveniet quia molestiae iure nulla explicabo recusandae numquam?</p>
+                </div>
+                <button class="btn-hero">Contactanos</button>
+                <button class="btn-hero">Mas..</button>
+            </div>
+            <div class="hero-img">
+                <img src="./bordadora1.jpg" alt="Maquina de bordar">
+            </div>
+            
+        </section>
+
+        <section>
+            <p class="benefits">
+                Contamos con muchos años de experiencia en el rubro, nuestros miles de clientes avalan nuestro trabajo.
+                Somos una empresa con mucha dedicacion y siempre queremos ver a nuestros clientes satisfechos
+            </p>
+            
+        </section>
+        <hr>
+        <section class="advantages">
+            <h3> Nuestras ventajas </h3>
+            <div class="subtitle">
+                <p>Trabajar con nosotros te ofrece algunos beneficios y tranquilidades</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-business-time"></i>
+                    </div>
+                    <div class="card-title">
+                        Tiempos
+                    </div>
+                    <div class="card-subtitle">
+                        Cumplimos con los tiempos de entrega pactados con el cliente.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div class="card-title">
+                        Calidad
+                    </div>
+                    <div class="card-subtitle">
+                        Calidad en el producto garantizada al 100%.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <div class="card-title">
+                        Fabrica
+                    </div>
+                    <div class="card-subtitle">
+                        Tenemos un lugar fisico donde visitarnos, trabajamos con maquinas propias.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="contact">
+            <h3>Contactanos</h3>
+            <div class="contact-left">
+                <ul class="left">
+                    <h4>Caba, Buenos Aires</h4>   
+                    <li><i class="fa-solid fa-location-dot"></i> Av santa fe 1251 - CABA - BS AS</li>
+                    <li><i class="fa-solid fa-phone"></i> 11 - 3426 - 3242</li>
+                    <li><i class="fa-solid fa-envelope"></i> covatex@gmail.com</li>
+                </ul>
+                <ul class="right"> 
+                    <h4>Moron, Buenos Aires</h4>  
+                    <li><i class="fa-solid fa-location-dot"></i>    25 de mayo 151 - Moron - BS AS</li>
+                    <li><i class="fa-solid fa-phone"></i>11 - 3556 - 3355</li>
+                    <li><i class="fa-solid fa-envelope"></i> covatex@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact-right">
+                <img src="./porton_industrial_03.jpg" alt="Nuestra fabrica">
+            </div>
+
+            <div class="social contact-left">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer> 
+        <h3>Covatex - 2022  <i class="fa-regular fa-copyright"></i></h3>
+    </footer>
 </body>
 </html>
