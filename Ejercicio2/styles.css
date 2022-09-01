@@ -100,13 +100,16 @@ footer {
 
 
 
-.hero-img img{
+.hero-img {
     height: auto;
-    width: 500px;
+    width: 50%;
     float: right;
-    border-radius: 5%;
- 
+    
+}
 
+.hero-img img{
+    width: 100%;
+    border-radius: 5%;
 }
 
 .btn-hero{
@@ -230,6 +233,11 @@ button:hover {
     float: right;
     width: 50%;
     margin: auto;
+}
+
+.contact-right img{
+    width: 100%;
+    border-radius: 5%;
 }
 
 .contact-left li{
